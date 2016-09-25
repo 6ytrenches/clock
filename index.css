@@ -1,0 +1,58 @@
+body{
+  background-color: black;
+}
+
+#message {
+
+}
+
+
+.seconds{
+  padding-right: 80px;
+ 
+  }
+
+/*.hours hover{
+
+}*/
+
+div .message{
+ top: 400px;
+ left:250px;
+ :100px;
+}
+
+div {
+  padding: 50px;
+border:5px solid red;
+border-radius: 150px;
+font-size:10em;
+color: white;
+position: relative;
+display: inline;
+left:150px;
+top:200px;
+background: linear-gradient(79deg, #0eb68b, #0e32b6, #e37732);
+background-size: 600% 600%;
+-webkit-animation: AnimationName 0s ease infinite;
+-moz-animation: AnimationName 0s ease infinite;
+animation: AnimationName 0s ease infinite;
+
+}
+
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 91%}
+    50%{background-position:100% 10%}
+    100%{background-position:0% 91%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 91%}
+    50%{background-position:100% 10%}
+    100%{background-position:0% 91%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 91%}
+    50%{background-position:100% 10%}
+    100%{background-position:0% 91%}
+}
